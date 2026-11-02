@@ -4,7 +4,7 @@
 |---|---|
 | **Target URL** | [https://www.cynbit.in/](https://www.cynbit.in/) |
 | **Audit Date** | 2 November 2026 |
-| **Lead QA Tester** | Kartik Karnwal |
+| **Testeing by** | Kartik Karnwal |
 | **Audit Scope** | End-to-End Functional, Cross-Platform Responsive, Usability, Accessibility (WCAG 2.1 AA), SEO/Metadata, Security Headers & Privacy Compliance |
 | **Execution Environment** | Interactive Browser Automation (Playwright/Chrome Headless/Headed), Mobile Emulation, Tablet Emulation, Desktop Viewports, Network/HTTP Diagnostics |
 | **Report Status** | Final Comprehensive Deliverable |
@@ -15,14 +15,12 @@
 
 A comprehensive quality assurance (QA) audit was performed on **Cynbit Technologies** ([https://www.cynbit.in/](https://www.cynbit.in/)), a Jaipur-based software development and AI automation marketing and platform website built on Next.js and deployed via Vercel Edge infrastructure.
 
-Unlike initial static text evaluations, this complete audit executed **full multi-device interactive browser testing**, visual responsive rendering at 6 distinct viewport break-points, live contact and career application form validations, blog pagination/query routing inspections, HTTP security header profiling, canonical/redirect chain analysis, keyboard focus navigation, and custom error state routing (404 / broken route handling).
-
-### Overall Quality Scorecard
-* **System Availability & Core Navigation:** **EXCELLENT (98%)** — All 18 sampled routes render successfully; primary dropdowns and mobile navigation drawer operate cleanly without catastrophic crash.
-* **Responsive Visual Adaptation:** **GOOD (85%)** — Mobile (360px, 375px), Tablet (768px), and Desktop (1024px–1920px) adapt fluidly without severe horizontal page blowout.
-* **Form Validation & Interactive States:** **POOR (42%)** — Contact form fails silently on invalid inputs without inline error notifications; careers multi-step form enforces excessive personal data collection.
-* **SEO, OpenGraph & Metadata:** **MODERATE (58%)** — Severe tag duplication (`Brand | Cynbit Technologies | Cynbit Technologies`), universal fallback to homepage `og:url` (`https://cynbit.in`) on subpages, SVG preview image not widely supported on social cards.
-* **Security & Infrastructure Headers:** **MODERATE (60%)** — Valid `Strict-Transport-Security` (HSTS) with 2-year max-age, but missing `Content-Security-Policy` (CSP), `X-Frame-Options`, `X-Content-Type-Options: nosniff`, and wildcard `Access-Control-Allow-Origin: *`.
+### Overall Quality 
+* **System Availability & Core Navigation: — All 18 sampled routes render successfully; primary dropdowns and mobile navigation drawer operate cleanly without catastrophic crash.
+* **Responsive Visual Adaptation:** **GOOD ** — Mobile (360px, 375px), Tablet (768px), and Desktop (1024px–1920px) adapt fluidly without severe horizontal page blowout.
+* **Form Validation & Interactive States:** **POOR ** — Contact form fails silently on invalid inputs without inline error notifications; careers multi-step form enforces excessive personal data collection.
+* **SEO, OpenGraph & Metadata:** **MODERATE ** — Severe tag duplication (`Brand | Cynbit Technologies | Cynbit Technologies`), universal fallback to homepage `og:url` (`https://cynbit.in`) on subpages, SVG preview image not widely supported on social cards.
+* **Security & Infrastructure Headers:** **MODERATE ** — Valid `Strict-Transport-Security` (HSTS) with 2-year max-age, but missing `Content-Security-Policy` (CSP), `X-Frame-Options`, `X-Content-Type-Options: nosniff`, and wildcard `Access-Control-Allow-Origin: *`.
 
 ---
 
